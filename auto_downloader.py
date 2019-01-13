@@ -20,13 +20,13 @@ try:
 	base_path = data_in["base_path"]
 	temp = data_in["temp"]
 
-	if data_in['reset'] == 'True':
-		if os.path.exists(base_path):
-			shutil.rmtree(base_path)
-		print("Starting from scratch")
-
 	if temp == '.':
 		temp = base_path+'/temp'
+
+	if data_in['reset'] == 'True':
+		if os.path.exists(temp):
+			shutil.rmtree(temp)
+		print("Starting from scratch")
 
 except:
 	print("Couldn't find config file")

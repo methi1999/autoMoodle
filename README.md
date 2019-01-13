@@ -13,4 +13,4 @@ The 'config.json' file should be updated as follows:
 2. Course codes should be inserted in the following format: ["AA 101", "BB 101", ...]
 3. Base path should contain the path to the base folder
 4. Set reset to True in case you want to wipe the directory and start afresh.
-PLEASE NOTE THAT IT WILL DELETE THE ENTIRE FOLDER AND BUILD THE DIRECTORY FROM SCRATCH
+PLEASE NOTE THAT IT WILL DELETE THE TEMP FOLDER AND BUILD THE DIRECTORY FROM SCRATCH
